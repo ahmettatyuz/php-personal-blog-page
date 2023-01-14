@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+.photo img {
+    width: 250px;
+    height: 250;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.social-logo a {
+    font-size: 50px;
+    padding: 8px;
+}
+
+.link:visited {
+    color: black;
+}
+
+.social-logo:hover a {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.email {
+    text-decoration: underline;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.email:visited {
+    color: black;
+}
+
+.email:hover {
+    background-color: black;
+    color: white;
+}
+
+.hobi-img {
+    width: 350px;
+    border: 10px solid black;
+}
+
+.line {
+    width: 40%;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.right-line{
+    border-bottom-right-radius: 100px;
+}
+
+.left-line{
+    border-bottom-left-radius: 150px;
+}
+
+.student-logo{
+    width: 250px;
+    border-radius: 50%;
+}
+
+.contactCard{
+    background-image: url("https://wallpaperaccess.com/full/1478030.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.eye{
+    cursor: pointer;
+}
+
+.icon{
+    font-size: 40px;
+    padding: 10px;
+}

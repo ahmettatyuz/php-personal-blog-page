@@ -1,0 +1,53 @@
+.nav{
+    background-color: black;
+    padding: 12px;
+}
+
+.nav-ul{
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-li{
+    display: inline-block;
+    margin-left: 10px;
+    background-color:black;
+    border-radius: 5px;
+    border: 1px solid #009EFF;
+}
+
+.nav-a:hover{
+    background-color:#009EFF;
+    color: white;
+}
+
+
+.nav-a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+
+
+.nav-a:visited,.nav-a:active    {
+    color: white;
+}
+
+.nav-link{
+    margin-left: 5px;
+    border: 1px solid #009EFF;
+    border-radius: 5px;
+    color: white;
+}
+
+.nav-link:hover{
+    background-color: #009EFF;
+    color: black;
+}
+
+.nav-link.active{
+    background-color: #009EFF;
+}
